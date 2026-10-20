@@ -31,7 +31,7 @@ let t0=null;
 function loop(ts){if(t0===null)t0=ts;const t=(ts-t0)/1000;
 const W=innerWidth,H=innerHeight;const s=Math.min(W/1280,H/720);const VW=1280*s,VH=720*s,ox=(W-VW)/2,oy=(H-VH)/2;
 g.fillStyle="#040303";g.fillRect(0,0,W,H);
-const cw=VW/COL,ch=VH/ROWS;
+const cw=VW/COLS,ch=VH/ROWS;
 g.font=`${Math.max(6,(cw*1.62)|0)}px 'DejaVu Sans Mono',Consolas,monospace`;g.textBaseline="top";
 const cyc=(t%LOOP)/LOOP; const ph=cyc<0.5?cyc*2:2-cyc*2;   // ping-pong 0->1->0
 for(let r=0;r<ROWS;r++)for(let x=0;x<COLS;x++){const i=r*COLS+x;
