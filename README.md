@@ -53,4 +53,3 @@ HTML5 Canvas 2D · vanilla JavaScript · inline CSS
 - The loop length, wave and colours are constants in the code; there is no settings panel.
 - The picture lives inside the file, so changing it means editing the data URI.
 - Not tested on phones or low-end hardware.
-- The repo has no LICENSE file.
